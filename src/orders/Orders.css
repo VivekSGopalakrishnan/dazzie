@@ -1,0 +1,123 @@
+.orders_card_data{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+}
+.data_element{
+    background-color: #fff;
+    width: 250px;
+    height: 100px;
+    border-radius: 10px;
+
+}
+.data_element .name{
+padding-left: 10px;
+padding-top: 5px;
+}
+.amt{
+    padding-left: 10px;
+    padding-top: 5px;
+    font-family: 'Mbo';
+}
+.percentage{
+    color: #42BDA1;
+    font-family: 'Mr';
+    float: right;
+    margin-right: 10px;
+    text-align: center;
+}
+
+
+.orders_table{
+    width: max-content;
+    background-color: #fff;
+    padding: 40px 60px 40px 60px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 200px;
+
+}
+.items_table{
+    width: max-content;
+    background-color: #fff;
+    padding: 40px;
+    margin-left: 10px;
+    margin-right: 50px;
+    margin-bottom: 200px;
+}
+.order_list{
+display: flex;
+}
+.table_element{
+    margin-left: 20px;
+    
+}
+.item_sold_title{
+    font-family: 'Mexb';
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+.best_sellers{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Mbo';
+    color: #5541D7;
+    font-size: 12px;
+    background-color: #ffffff;
+    border: 2px solid #5541D7;
+    text-align: center;
+    width: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    padding-right: 10px;
+    margin-left: 20px;
+}
+
+.orders_title {
+    font-family: 'Mbo';
+    font-size: 28px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.order_table{
+    border-spacing: 0px;
+    width: 70%;
+    border-spacing: 0px;
+    
+}
+
+.item_sold_table{
+    width: 20%;
+    border-spacing: 0px;
+    
+}
+.item_item{
+    font-family: 'Mbo';
+    padding-right: 30px;
+}
+.item_image{
+    height: 50px;
+    width: 50px;
+    background-color: #E2E2EA;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+th{
+    height: 60px;   
+    padding-right: 40px;
+    padding-left: 40px;
+}
+thead{
+    background-color: #E2E2EA;
+    font-family: 'Mbo';
+}
+
+.order_table_element{
+    font-family: 'Mr';
+    text-align: center; 
+    height: 40px;
+    border-bottom: 1px solid #E2E2EA;
+}

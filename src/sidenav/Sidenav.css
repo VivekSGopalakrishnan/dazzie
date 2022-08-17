@@ -1,0 +1,40 @@
+.sidenav{
+    display: flex;
+    flex-direction: column;
+    width: 60px;
+    height: 100%;
+    position: fixed;
+    border-right: 2px solid #E2E2EA;
+}
+.sidenav_icons{
+    display: flex;
+    flex-direction: column;
+}
+
+ul{
+    list-style-type: none;
+}
+.sidenav_icon_element{
+    padding: 7px;
+    margin: 10px;
+    width: 26px;
+}
+
+
+.settings{
+    padding: 7px;
+    margin: 10px;
+    width: 26px;
+    margin-top: 50px;  
+    
+}
+
+.sidenav_icon_element:active, .sidenav_icon_element:hover {
+    background-color: #5541D7;
+    
+    border-radius: 5px;
+}
+.settings:active, .settings:hover{
+    background-color: #5541D7;
+    border-radius: 5px;
+}

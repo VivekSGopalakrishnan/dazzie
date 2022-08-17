@@ -1,0 +1,50 @@
+.navbar{
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    border-bottom: 2px solid #E2E2ea;
+
+
+}
+.title{
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+    
+}
+.pic{
+    height: 50px;
+    width: 50px;
+    background-color: #E2E2ea;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.title_name{
+    font-family: 'Mb';
+    font-size: 26px;
+    
+}
+.user{
+    display: flex;
+    margin-right: 20px;
+    align-items: center;
+}
+.pic_1{
+    height: 50px;
+    width: 50px;
+    background-color: #E2E2ea;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.user_name{
+    font-family: 'Mexb';
+}
+
+.position{
+    font-family: 'Ml';
+    text-align: center;
+}
